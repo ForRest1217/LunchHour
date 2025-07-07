@@ -343,7 +343,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pannel: {fileID: 1246898892}
   audiomixer: {fileID: 24100000, guid: 7cc96756e7d9e984096a0368b5b19e70, type: 2}
-  bgmSlider: {fileID: 0}
   sfxSlider: {fileID: 1500998733}
   back: {fileID: 1470514021}
   lobby: {fileID: 1937373570}
