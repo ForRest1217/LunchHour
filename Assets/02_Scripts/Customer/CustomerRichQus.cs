@@ -49,7 +49,7 @@ public class CustomerRichQus : MonoBehaviour
 
     private void Awake()
     {
-        spriterenderer = GameObject.Find("menu").GetComponentInChildren<SpriteRenderer>();
+        spriterenderer = menu.GetComponent<SpriteRenderer>();
         ani = GetComponent<Animator>();
     }
 

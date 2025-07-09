@@ -47,7 +47,7 @@ public class CustomerRich : MonoBehaviour
 
     private void Awake()
     {
-        spriterenderer = GameObject.Find("menu").GetComponentInChildren<SpriteRenderer>();
+        spriterenderer = menu.GetComponent<SpriteRenderer>();
         ani = GetComponent<Animator>();
     }
 
