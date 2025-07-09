@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: FriedSound
   m_EditorClassIdentifier: 
   soundType: 0
-  audioClip: {fileID: 8300000, guid: bd921c88063a1344db6c2378811ab855, type: 3}
+  audioClip: {fileID: 8300000, guid: 24877cac6034bdd47ad9060b88b67647, type: 3}

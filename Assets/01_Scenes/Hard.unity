@@ -467,7 +467,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audiomixer: {fileID: 24100000, guid: 7cc96756e7d9e984096a0368b5b19e70, type: 2}
-  bgmSlider: {fileID: 0}
   sfxSlider: {fileID: 1500998734}
 --- !u!1 &135812382
 GameObject:
@@ -11420,6 +11419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pannel: {fileID: 1780836010}
   soundData: {fileID: 11400000, guid: c10ef166bbf24974096ed7cb48c85ecd, type: 2}
+  audioMixer: {fileID: 24100000, guid: 7cc96756e7d9e984096a0368b5b19e70, type: 2}
 --- !u!114 &1780836012
 MonoBehaviour:
   m_ObjectHideFlags: 0

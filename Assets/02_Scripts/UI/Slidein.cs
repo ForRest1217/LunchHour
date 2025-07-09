@@ -10,10 +10,10 @@ public class Slidein : MonoBehaviour
 
     private void Start()
     {
-        float bgmVolume = PlayerPrefs.GetFloat("BGMVolume", 1f);
         float sfxVolume = PlayerPrefs.GetFloat("SFXVolume", 1f);
-        audioMixer.SetFloat("BGMVolume", Mathf.Log10(bgmVolume) * 20f);
+        float systemVolume = PlayerPrefs.GetFloat("SystemVolume", 1f);
         audioMixer.SetFloat("SFXVolume", Mathf.Log10(sfxVolume) * 20f);
+        audioMixer.SetFloat("SystemVolume", Mathf.Log10(systemVolume) * 20f);
         StartCoroutine(StartSlide());
     }
 

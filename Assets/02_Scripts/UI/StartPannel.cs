@@ -1,12 +1,14 @@
 using DG.Tweening;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class StartPannel : MonoBehaviour
 {
     [SerializeField] private RectTransform pannel;
     [SerializeField] private SoundData soundData;
+    [SerializeField] private AudioMixer audioMixer;
 
     private void Start()
     {

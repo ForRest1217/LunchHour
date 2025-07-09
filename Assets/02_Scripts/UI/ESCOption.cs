@@ -34,8 +34,6 @@ public class ESCOption : MonoBehaviour
         SoundManager.Instance.PlaySound(soundData);
         Time.timeScale = 1f;
         AudioListener.pause = false;
-        float bgm = PlayerPrefs.GetFloat("BGMVolume");
-        audiomixer.SetFloat("BGMVolume", bgm);
         float sfx = PlayerPrefs.GetFloat("SFXVolume");
         audiomixer.SetFloat("SFXVolume", sfx);
         up = false;
@@ -56,7 +54,6 @@ public class ESCOption : MonoBehaviour
             SoundManager.Instance.PlaySound(soundData);
             Time.timeScale = 0f;
             AudioListener.pause = true;
-            audiomixer.SetFloat("BGMVolume", -80f);
             audiomixer.SetFloat("SFXVolume", -80f);
             up = true;
             pannel.DOAnchorPos(new Vector2(0, 0), 0.7f).SetEase(Ease.OutCubic).SetUpdate(true);
